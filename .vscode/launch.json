@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TestEmployee",
+            "request": "launch",
+            "mainClass": "P20240909/com.systex.main.TestEmployee",
+            "projectName": "P20240909"
+        },
+        {
+            "type": "java",
+            "name": "PassTest",
+            "request": "launch",
+            "mainClass": "P20240910/com.systex.main.PassTest",
+            "projectName": "P20240910"
+        },
+        {
+            "type": "java",
+            "name": "TestByValue",
+            "request": "launch",
+            "mainClass": "P20240910/com.systex.main.TestByValue",
+            "projectName": "P20240910"
+        },
+        {
+            "type": "java",
+            "name": "TestLocalVar",
+            "request": "launch",
+            "mainClass": "P20240910/com.systex.main.TestLocalVar",
+            "projectName": "P20240910"
+        },
+        {
+            "type": "java",
+            "name": "TestPoint",
+            "request": "launch",
+            "mainClass": "P20240910/com.systex.main.TestPoint",
+            "projectName": "P20240910"
+        },
+        {
+            "type": "java",
+            "name": "TestProduct",
+            "request": "launch",
+            "mainClass": "P20240910/com.systex.main.TestProduct",
+            "projectName": "P20240910"
+        },
+        {
+            "type": "java",
+            "name": "TestScoping",
+            "request": "launch",
+            "mainClass": "P20240910/com.systex.main.TestScoping",
+            "projectName": "P20240910"
+        },
+        {
+            "type": "java",
+            "name": "DaysInMonth",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.DaysInMonth",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.Fibonacci",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "FindingPrimes",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.FindingPrimes",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "MultiTable",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.MultiTable",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "PrintStar",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.PrintStar",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "TestCustomer",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.TestCustomer",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "TestEquals",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.TestEquals",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "TestForLoop",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.TestForLoop",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "TestOperate",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.TestOperate",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "TestSwitch",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.TestSwitch",
+            "projectName": "P20240911"
+        },
+        {
+            "type": "java",
+            "name": "TryMultiTable",
+            "request": "launch",
+            "mainClass": "P20240911/com.systex.main.TryMultiTable",
+            "projectName": "P20240911"
+        }
+    ]
+}
