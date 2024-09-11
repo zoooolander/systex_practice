@@ -1,0 +1,18 @@
+package com.systex.main;
+
+public class TestOperate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte a = 1;
+		byte b = 1;
+		byte c = (byte)(a+b);//因為java會先將 a, b轉成 int，所以須轉型成byte
+		
+		int age = 50;
+		System.out.println(age*365L*24*60*60*1000);//java會先找出運算式最大的型別，轉型後再進行運算
+		
+		System.out.println(111+222+333);
+		System.out.println("111"+222+333);
+	}
+
+}
