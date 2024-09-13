@@ -4,7 +4,7 @@ public class PrintStar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int height = 5;
+		int height = Integer.parseInt(args[0]);
 
 		// loop1: Right Triangle Star Pattern
 		System.out.println("loop 1");
@@ -54,6 +54,7 @@ public class PrintStar {
 		System.out.println();
 
 		// loop 5
+		System.out.println("loop 5");
 		for (int i = 1; i <= height; i++) {
 			for (int j = 1; j < i; j++) {
 				System.out.print(" ");
@@ -66,6 +67,7 @@ public class PrintStar {
 		System.out.println();
 
 		// loop 6
+		System.out.println("loop 6");
 		for (int i = 1; i <= height; i++) {
 			for (int j = 1; j < i; j++) {
 				System.out.print(" ");
@@ -78,6 +80,7 @@ public class PrintStar {
 		System.out.println();
 
 		//loop 7: Diamond Shape Pattern
+		System.out.println("loop 7");
 		for (int i = 1; i <= height; i++) {
 			//上半部分
             for (int j = height - i; j > 0; j--) {
