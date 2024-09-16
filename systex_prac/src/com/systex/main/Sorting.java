@@ -18,12 +18,21 @@ public class Sorting {
 		dateList.add(new MyDate(17, 8, 1995));
 		dateList.add(new MyDate(1, 1, 1989));
 
-		System.out.println("Not yet sorted");
-		System.out.println();
+		System.out.println("原始資料尚未排序");
 		dateList.forEach(d -> System.out.println(d));
+		System.out.println();
+		
+		// 日期由舊至新排序
+		System.out.println("日期由舊至新排序");
 		Collections.sort(dateList);
-        // print排序後的結果
-		System.out.println("sorted");
+		for (MyDate date : dateList) {
+            System.out.println(date);
+        }
+		System.out.println();
+		
+		// 日期由新至舊排序
+        System.out.println("日期由新至舊排序");
+        Collections.sort(dateList, MyDate.NEW_TO_OLD_COMPARATOR);
         for (MyDate date : dateList) {
             System.out.println(date);
         }

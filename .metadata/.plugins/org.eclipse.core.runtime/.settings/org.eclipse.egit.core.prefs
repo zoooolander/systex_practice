@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Labs\\Java\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=D\:\\project\\systex_homework\\systex_hw\\.git;D\:\\project\\systex_practice\\.git;
+GitRepositoriesView.GitDirectories.relative=D\:\\project\\systex_homework\\systex_hw\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

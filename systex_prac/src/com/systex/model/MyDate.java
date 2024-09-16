@@ -1,9 +1,11 @@
 package com.systex.model;
 
+import java.util.Comparator;
+
 public class MyDate implements Comparable<MyDate> {
-	private int day;
-	private int month;
 	private int year;
+	private int month;
+	private int day;
 
 	public MyDate() {
 		// super();
@@ -43,9 +45,17 @@ public class MyDate implements Comparable<MyDate> {
 		}
 	}
 	
+	// 靜態 Comparator 用於由新至舊排序
+    public static final Comparator<MyDate> NEW_TO_OLD_COMPARATOR = new Comparator<MyDate>() {
+        @Override
+        public int compare(MyDate date1, MyDate date2) {
+            // 使用 compareTo 方法，反轉比較結果
+            return date2.compareTo(date1);
+        }
+    };
+
 	@Override
 	public String toString() {
-		return "MyDate [day=" + day + ", month=" + month + ", year=" + year + "]";
+		return "MyDate [year=" + year + ", month=" + month + ", day=" + day + "]";
 	}
-
 }
