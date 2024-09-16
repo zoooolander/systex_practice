@@ -1,6 +1,0 @@
-package com.systex.model;
-
-public class Scoping {
-	public static int a;//class variable
-	public int b;//member variable, attribute, instance variable, field
-}
