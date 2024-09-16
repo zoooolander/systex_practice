@@ -1,11 +1,9 @@
-INDEX VERSION 1.134+D:\project\systex_practice\.metadata\.plugins\org.eclipse.jdt.core
+INDEX VERSION 1.134+C:\Labs\Java\.metadata\.plugins\org.eclipse.jdt.core
+3735546218.index
+532379929.index
+209332034.index
 2071795668.index
 1865797976.index
-2354897545.index
-1881056126.index
 465215025.index
-2507372280.index
-532379929.index
 3799271022.index
-209332034.index
-3413270776.index
+2507372280.index
